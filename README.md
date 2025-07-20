@@ -1,8 +1,5 @@
 # SecureShare - Secure Data Sharing Platform for Fintech
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-
 SecureShare is a comprehensive secure data sharing platform designed for fintech organizations that need to share sensitive customer data with trusted partners while maintaining strict security, consent management, and regulatory compliance.
 
 ## 🔑 Key Features
@@ -131,11 +128,6 @@ The encryption key must be 32 bytes (256 bits) and should be securely stored in 
 
 SecureShare requires a MongoDB database. The connection string should be specified in the `MONGODB_URI` environment variable.
 
-For production, it's recommended to:
-- Enable authentication
-- Use TLS/SSL connections
-- Set up appropriate database user permissions
-- Configure database backups
 
 ## 📚 API Documentation
 
@@ -308,7 +300,3 @@ Both backends use console logging for development. In production, consider:
 - Implementing a proper logging service (Winston, Bunyan, etc.)
 - Setting up log aggregation
 - Configuring alert thresholds
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
